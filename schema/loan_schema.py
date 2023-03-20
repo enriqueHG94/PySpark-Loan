@@ -26,4 +26,4 @@ class loan:
             StructField("class", StringType(), True)
         ])
 
-schema = loan()
+LoanEntity = loan()
