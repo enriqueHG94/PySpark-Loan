@@ -1,6 +1,6 @@
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, LongType
 
-class loan:
+class LoanSchema:
     def __init__(self):
         self.schema = StructType([
             StructField("checking_status", StringType(), True),
@@ -26,4 +26,4 @@ class loan:
             StructField("class", StringType(), True)
         ])
 
-LoanEntity = loan()
+loan_entity = LoanSchema()
