@@ -3,7 +3,7 @@
 
 First steps in the project:
 
-I have created the project and the folder with the resources I am going to use, then I have created the file with which i'm going to work with PySpark, in this first step I have created the Spark session and I have read a file in CSV format and later I have shown it on the screen.
+I have created the project and the folder with the resources I am going to use, then I have created the file with which I'm going to work with PySpark, in this first step, I have created the Spark session and I have read a file in CSV format, and later I have shown it on the screen.
 
 Second steps in the project:
 
@@ -11,8 +11,8 @@ I created a new folder with a .py file, where I built the schema and assigned it
 
 Third stage of the project:
 
-I have created a new folder called services and a new .py file, where I have made a transformation that consists of creating a method that asks for a dataframe as parameter and returns a new dataframe, with a few columns already existing in the dataframe and two new columns, then I have called the transformation in my main file and I have shown it on the screen.
+I have created a new folder called services and a new .py file, where I have made a transformation that consists of creating a method that asks for a data frame as parameter and returns a new data frame, with a few columns already existing in the data frame and two new columns, then I have called the transformation in my main file and I have shown it on the screen.
 
 Testing with assert:
 
-In this test I created a new folder called test where I created two csv files, a sample file and the expected result, to which I made a transformation that consisted of adding two new columns with their respective values, then I sorted the columns with sorted and used assert to check if the two dataframes worked correctly.
+In this test I created a new folder called test where I created two CSV files, a sample file and the expected result, to which I made a transformation that consisted of adding two new columns with their respective values, then I sorted the columns with sorted and used assert to check if the two data frames worked correctly.
